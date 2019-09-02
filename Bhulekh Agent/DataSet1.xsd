@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsAnshAgentScrappedData" msprop:Generator_TableClassName="dsAnshAgentScrappedDataDataTable" msprop:Generator_TableVarName="tabledsAnshAgentScrappedData" msprop:Generator_RowChangedName="dsAnshAgentScrappedDataRowChanged" msprop:Generator_TablePropName="dsAnshAgentScrappedData" msprop:Generator_RowDeletingName="dsAnshAgentScrappedDataRowDeleting" msprop:Generator_RowChangingName="dsAnshAgentScrappedDataRowChanging" msprop:Generator_RowEvHandlerName="dsAnshAgentScrappedDataRowChangeEventHandler" msprop:Generator_RowDeletedName="dsAnshAgentScrappedDataRowDeleted" msprop:Generator_RowClassName="dsAnshAgentScrappedDataRow" msprop:Generator_UserTableName="dsAnshAgentScrappedData" msprop:Generator_RowEvArgName="dsAnshAgentScrappedDataRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Gram_Name" msprop:Generator_ColumnVarNameInTable="columnGram_Name" msprop:Generator_ColumnPropNameInRow="Gram_Name" msprop:Generator_ColumnPropNameInTable="Gram_NameColumn" msprop:Generator_UserColumnName="Gram_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Pargana_Name" msprop:Generator_ColumnVarNameInTable="columnPargana_Name" msprop:Generator_ColumnPropNameInRow="Pargana_Name" msprop:Generator_ColumnPropNameInTable="Pargana_NameColumn" msprop:Generator_UserColumnName="Pargana_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Tehsil_Name" msprop:Generator_ColumnVarNameInTable="columnTehsil_Name" msprop:Generator_ColumnPropNameInRow="Tehsil_Name" msprop:Generator_ColumnPropNameInTable="Tehsil_NameColumn" msprop:Generator_UserColumnName="Tehsil_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="District_Name" msprop:Generator_ColumnVarNameInTable="columnDistrict_Name" msprop:Generator_ColumnPropNameInRow="District_Name" msprop:Generator_ColumnPropNameInTable="District_NameColumn" msprop:Generator_UserColumnName="District_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Fasli_Year" msprop:Generator_ColumnVarNameInTable="columnFasli_Year" msprop:Generator_ColumnPropNameInRow="Fasli_Year" msprop:Generator_ColumnPropNameInTable="Fasli_YearColumn" msprop:Generator_UserColumnName="Fasli_Year" type="xs:string" minOccurs="0" />
+              <xs:element name="Bhag" msprop:Generator_ColumnVarNameInTable="columnBhag" msprop:Generator_ColumnPropNameInRow="Bhag" msprop:Generator_ColumnPropNameInTable="BhagColumn" msprop:Generator_UserColumnName="Bhag" type="xs:string" minOccurs="0" />
+              <xs:element name="Khata_No" msprop:Generator_ColumnVarNameInTable="columnKhata_No" msprop:Generator_ColumnPropNameInRow="Khata_No" msprop:Generator_ColumnPropNameInTable="Khata_NoColumn" msprop:Generator_UserColumnName="Khata_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Khatedar_Owner" msprop:Generator_ColumnVarNameInTable="columnKhatedar_Owner" msprop:Generator_ColumnPropNameInRow="Khatedar_Owner" msprop:Generator_ColumnPropNameInTable="Khatedar_OwnerColumn" msprop:Generator_UserColumnName="Khatedar_Owner" type="xs:string" minOccurs="0" />
+              <xs:element name="Khatedar_Name" msprop:Generator_ColumnVarNameInTable="columnKhatedar_Name" msprop:Generator_ColumnPropNameInRow="Khatedar_Name" msprop:Generator_ColumnPropNameInTable="Khatedar_NameColumn" msprop:Generator_UserColumnName="Khatedar_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Khatedar_Father_Name" msprop:Generator_ColumnVarNameInTable="columnKhatedar_Father_Name" msprop:Generator_ColumnPropNameInRow="Khatedar_Father_Name" msprop:Generator_ColumnPropNameInTable="Khatedar_Father_NameColumn" msprop:Generator_UserColumnName="Khatedar_Father_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Khatedar_Living_Place" msprop:Generator_ColumnVarNameInTable="columnKhatedar_Living_Place" msprop:Generator_ColumnPropNameInRow="Khatedar_Living_Place" msprop:Generator_ColumnPropNameInTable="Khatedar_Living_PlaceColumn" msprop:Generator_UserColumnName="Khatedar_Living_Place" type="xs:string" minOccurs="0" />
+              <xs:element name="Khatedar_Aadhar_No" msprop:Generator_ColumnVarNameInTable="columnKhatedar_Aadhar_No" msprop:Generator_ColumnPropNameInRow="Khatedar_Aadhar_No" msprop:Generator_ColumnPropNameInTable="Khatedar_Aadhar_NoColumn" msprop:Generator_UserColumnName="Khatedar_Aadhar_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Bhukhand_Code" msprop:Generator_ColumnVarNameInTable="columnBhukhand_Code" msprop:Generator_ColumnPropNameInRow="Bhukhand_Code" msprop:Generator_ColumnPropNameInTable="Bhukhand_CodeColumn" msprop:Generator_UserColumnName="Bhukhand_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Gata_No" msprop:Generator_ColumnVarNameInTable="columnGata_No" msprop:Generator_ColumnPropNameInRow="Gata_No" msprop:Generator_ColumnPropNameInTable="Gata_NoColumn" msprop:Generator_UserColumnName="Gata_No" type="xs:string" minOccurs="0" />
+              <xs:element name="BhukhandOrGata_Area" msprop:Generator_ColumnVarNameInTable="columnBhukhandOrGata_Area" msprop:Generator_ColumnPropNameInRow="BhukhandOrGata_Area" msprop:Generator_ColumnPropNameInTable="BhukhandOrGata_AreaColumn" msprop:Generator_UserColumnName="BhukhandOrGata_Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Khatedar_Ansh_Area" msprop:Generator_ColumnVarNameInTable="columnKhatedar_Ansh_Area" msprop:Generator_ColumnPropNameInRow="Khatedar_Ansh_Area" msprop:Generator_ColumnPropNameInTable="Khatedar_Ansh_AreaColumn" msprop:Generator_UserColumnName="Khatedar_Ansh_Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Aadesh" msprop:Generator_ColumnVarNameInTable="columnAadesh" msprop:Generator_ColumnPropNameInRow="Aadesh" msprop:Generator_ColumnPropNameInTable="AadeshColumn" msprop:Generator_UserColumnName="Aadesh" type="xs:string" minOccurs="0" />
+              <xs:element name="Tippadi" msprop:Generator_ColumnVarNameInTable="columnTippadi" msprop:Generator_ColumnPropNameInRow="Tippadi" msprop:Generator_ColumnPropNameInTable="TippadiColumn" msprop:Generator_UserColumnName="Tippadi" type="xs:string" minOccurs="0" />
+              <xs:element name="BhukhandOrGata_Total_Area" msprop:Generator_ColumnVarNameInTable="columnBhukhandOrGata_Total_Area" msprop:Generator_ColumnPropNameInRow="BhukhandOrGata_Total_Area" msprop:Generator_ColumnPropNameInTable="BhukhandOrGata_Total_AreaColumn" msprop:Generator_UserColumnName="BhukhandOrGata_Total_Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Khatedar_Ansh_Total_Area" msprop:Generator_ColumnVarNameInTable="columnKhatedar_Ansh_Total_Area" msprop:Generator_ColumnPropNameInRow="Khatedar_Ansh_Total_Area" msprop:Generator_ColumnPropNameInTable="Khatedar_Ansh_Total_AreaColumn" msprop:Generator_UserColumnName="Khatedar_Ansh_Total_Area" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Gata_Code" msprop:Generator_ColumnVarNameInTable="columnTotal_Gata_Code" msprop:Generator_ColumnPropNameInRow="Total_Gata_Code" msprop:Generator_ColumnPropNameInTable="Total_Gata_CodeColumn" msprop:Generator_UserColumnName="Total_Gata_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Category" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_UserColumnName="Category" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
